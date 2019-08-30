@@ -1,0 +1,40 @@
+/* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
+html,
+body,
+.view {
+  height: 100%; }
+
+@media (max-width: 740px) {
+  .full-page-intro {
+    height: 1000px; } }
+
+/* Half Page Carousel itself*/
+.carousel {
+  height: 50%; }
+  .carousel .carousel-inner {
+    height: 100%; }
+    .carousel .carousel-inner .carousel-item,
+    .carousel .carousel-inner .active {
+      height: 100%; }
+
+/* Adjustment for mobile devices*/
+
+/* Navbar animation */
+.navbar {
+  background-color: rgba(0, 0, 0, 0.0); }
+
+.top-nav-collapse {
+  background-color: #1C2331; }
+
+/* Adding color to the Navbar on mobile */
+
+#background {
+  background-attachment:scroll;
+  background-image: url('https://lh3.googleusercontent.com/OMHhIBECHiR5u6dMP2a4MVZeSvX_v10YUSUb306jqXjkWfSx4P5NTvqo45cWfad6WwN18_a5uM6lsr9SFQlQBM5QXAlDdMGO65Z42h7G2E7A3erznjeSPMd8Zxo9ROYpmDQ-6-10kg=w2400');
+  background-position-x: center;
+  background-position-y: 20%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  background-color: hsl(210, 100%, 100%);
+
+}
